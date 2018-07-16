@@ -5,6 +5,7 @@
 
 import os
 
+path = '/root/python/files'
 for CurDir,SubDir,SubFiles in os.walk('/root/python/files'):
     for files in SubFiles:
         abPath = os.path.join(CurDir,files)
